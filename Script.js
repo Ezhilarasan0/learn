@@ -36,3 +36,10 @@
 // let currentColor = userColor || defaultColor;
 // console.log(currentColor);
 // alert("welcome");
+
+// document.getElementById()
+// document.getElementsByClassName()
+// document.getElementsByTagName()
+
+// document.querySelector()
+// document.querySelectorAll()
