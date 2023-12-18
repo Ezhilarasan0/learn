@@ -135,4 +135,113 @@ setInterval()
 // classList.add()
 // classList.remove()
 // classList.toggle()
-// setAttribute()
+// setAttribute() 
+//getAttribite()
+
+
+//  
+
+
+// const btnClick = document.querySelector("#btnClick");
+// const input = document.querySelector("input")
+
+// btnClick.addEventListener("click", function (){
+//     const attri = input.getAttribute("type");
+//     if (attri == "text") {
+//         input.setAttribute("type", "password");
+//     } else{
+//         input.setAttribute("type", "text");
+//     }
+// });
+
+
+// // hasAttribute()
+// console.log(btnClick.hasAttribute("class"));
+// // getAttribute()
+// // removeAttribute()
+
+
+/*
+Event Handlers
+    Inline event listeners
+    Inline properties
+    Event listenners.
+*/
+
+
+// const ala = document.querySelector(".alert");
+
+// // ala.addEventListener("click", function() {
+// //     alert("Welcome to Ezhilarasan");
+// // })
+
+// ala.addEventListener("mousedown", function(){
+//     this.style.backgroundColor = "red";
+// });
+
+// ala.addEventListener("mouseout", function(){
+//     this.style.backgroundColor = "blue";
+// });
+
+// ala.addEventListener("mouseover", function(){
+//     this.style.backgroundColor = "yellow";
+// });
+
+/*
+Event
+    1.Mouse
+        click
+        dblclick
+        mousedown
+        mouseout
+        mouseup
+        mouseover
+    2.keyboard
+        keydonw
+        keypress
+        keyup
+        keycode
+        code
+    3. form
+        focus
+        submit
+        blur
+        change
+    4.Touch
+        touchstart
+        touchmove
+        touchend
+        touchcancel
+    5.window
+        scroll
+        resize
+        load
+        haschange
+
+*/
+
+
+// const input = document.getElementById("input-num");
+// const msg = document.getElementById("error");
+
+// input.addEventListener("keydown", function(event){
+//     const key = event.key;
+//     if(isNaN(key)){
+//         msg.textContent = "Please Enter Number only";
+//     }else{
+//         msg.textContent = "";
+//     }
+// })
+
+/*
+Form Events in JavaScript
+    submit
+    reset
+    checked
+    blur
+    focus
+    change
+*/
+
+
+
