@@ -243,5 +243,52 @@ Form Events in JavaScript
     change
 */
 
+// const form = document.querySelector("form");
+// const username = document.querySelector("#name");
+// const email = document.querySelector("#email");
+// const course = document.querySelector("#course");
+// const radios = document.querySelectorAll('input[name="gender"]');
+// const checkbox = document.querySelector("#agree");
+
+// form.addEventListener("submit", function(e){
+//     e.preventDefault();
+//     console.log("User :", username.value);
+//     console.log("Enter your email", email.value);
+
+//     let selectedGendar = "";
+// radios.forEach((radio) => {
+//     if(radio.checked){
+//         selectedGendar =radio.value;
+//     }
+// });
+// console.log("Gender :", selectedGendar);
 
 
+// });
+
+// course.addEventListener("change", function(e){
+//     let selectcourse = e.target.value
+//     console.log("select course :", selectcourse);
+// });
+
+
+
+// form.addEventListener("reset", function(e){
+//     console.error("file is delete");
+// });
+
+// username.addEventListener("focus", function (e) {
+//     username.style.borderColor = "orange";
+// });
+
+// username.addEventListener("blur", function(e){
+//     username.style.borderColor = "black";
+// });
+
+/*
+4. Touch
+touchstart
+touchmove
+touchend
+touchcancel
+*/

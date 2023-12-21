@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: palegreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    padding: 16px;
+    background-color: white;
+    border-radius: 8px;
+}
+.form-group {
+    padding: 8px;
+}
+label {
+    display: block;
+}
+button {
+    width: 100px;
+    height: 32px;
+    background-color: rgb(43, 226, 186);
+    color: white;
+    border-radius: 48px;
+}

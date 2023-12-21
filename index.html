@@ -4,42 +4,42 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <!-- <style>
-    .box {
-      width: 150px;
-      height: 150px;
-      background-color: palegreen;
-      font-size: 20px;
-      line-height: 150px;
-      margin-bottom: 20px;
-      text-align: center;
-    }
-
-    .new-color {
-      color: orange;
-      background-color: #222;
-    }
-
-  </style> -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- <div class="box">box</div>
-  <button id="btnAdd">Add</button>
-  <button id="btnRemove">Remove</button>
-  <button id="btnToggle">Toggle</button>
-  <script src="Script.js"></script> -->
-
-  <!-- <input type="text" id="textName" />
-  <button id="btnClick">Click</button> -->
-  
-
-  <!-- <h3>Javascript DOM Enent Handlers</h3>
-  <button class="alert">Click Me</button> -->
-
-  <h1>Keyboard Event in Javascript</h1>
-  <label for="input-num">Enter a Number</label>
-  <input type="text" id="input-num" />
-  <p id="error"></p>
+<form action="">
+  <div class="form-group" autocomplete="off">
+    <label for="name">User Name</label>
+    <input type="text" id="name" />
+  </div>
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input type="email" id="email" />
+  </div>
+  <div class="form-group">
+    <label for="course">Select Course</label>
+    <select id="course">
+      <option>C</option>
+      <option>C++</option>
+      <option>HTML</option>
+      <option>CSS</option>
+      <option>Javascript</option>
+    </select>
+  </div>
+  <div class="form-group">
+     <legend>Gender</legend>
+     <label><input type="radio" name="gender" value="male">Male</label>
+     <label><input type="radio" name="gender" value="Female">Female</label>
+  </div>
+  <div class="form-group">
+    <input type="checkbox" id="agree" />
+    <label for="agree">I Agree all Condition</label>
+  </div>
+<div class="form-group">
+  <button type="submit">Submit</button>
+  <button type="reset">Reset</button>
+</div>
+</form>
   <script src="Script.js"></script>
 </body>
 </html>
